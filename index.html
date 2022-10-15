@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/style.css">
     <script src="src/services/service.js"></script>
+    <script src="script.js"></script>
     <title>Pokemon Types</title>
 </head>
-<body>
+<body onload="buildTableAllTypes()">
+    <h1>Pokemon Types</h1>
     <main>
-        <h1>Pokemon Types</h1>
-        <div class="firstTable">
-
+        <div id="tableAllTypes">
+            <ul id="typesList"> 
+            </ul>
         </div>
     </main>
 </body>

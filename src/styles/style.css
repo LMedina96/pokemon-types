@@ -3,16 +3,44 @@
 }
 
 body {
-    background-color: #F3CB10;
+    background-color: #C73030;
     margin: 0;
 }
 
 main {
-   width: 100vw;
+   width: 80vw;
    height: 80vh;
-   text-align: center;
+   margin: 0 2rem;
 }
 
 h1 {
     margin: 1rem auto;
+    text-align: center;
+    color: white;
 }
+
+#tableAllTypes {
+    max-width: 350px;
+    max-height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2rem;
+}
+
+#tableAllTypes ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+}
+
+#tableAllTypes ul li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+
