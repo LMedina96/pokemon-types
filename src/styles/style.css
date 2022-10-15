@@ -1,0 +1,18 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #F3CB10;
+    margin: 0;
+}
+
+main {
+   width: 100vw;
+   height: 80vh;
+   text-align: center;
+}
+
+h1 {
+    margin: 1rem auto;
+}
